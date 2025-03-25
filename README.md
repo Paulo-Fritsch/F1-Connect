@@ -1,17 +1,21 @@
-<<<<<<< HEAD
-# F1-Connect
-Desenvolvimento de um site pra exibir as principais informações da Formula 1.
-=======
-# React + Vite
+<h1>🏎 F1 Connect</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h2>👨🏽‍💻 Ferramentas Usadas</h2>
+ReactJS + VITE <br>
+Material UI (para a interface ficar bem estruturada e responsiva) <br>
+React Router DOM <br>
+Axios (para integrar a API de forma fácil) <br>
+Styled-Components <br>
+Git (para controle de versão e versionamento)<br>
+Vercel (para hospedar de graça)<br>
 
-Currently, two official plugins are available:
+<h2>⁉Sobre</h2>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![image](https://github.com/user-attachments/assets/e13cb629-db9b-4b0a-9f7f-adea0c1b6d8e)
 
-## Expanding the ESLint configuration
+![image](https://github.com/user-attachments/assets/1bfb96b1-a2b5-461c-a838-92bcc41fff95)
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
->>>>>>> 26a85ac (Welcome: Primeiro Commit do Projeto)
+Melhorias Futuras:
+- Adicionar mais itens da api
+- Melhorar a usabilidade
+- Trazer noticias de alguma api
