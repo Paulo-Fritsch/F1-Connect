@@ -1,0 +1,104 @@
+.topbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background: rgb(180, 21, 21); /* Cor de fundo */
+  background: linear-gradient(164deg, rgb(185, 14, 14) 31%, rgba(183, 5, 5, 1) 55%) !important; /* Gradiente */
+}
+
+.topbar .toolbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 20px; /* Padding lateral para não colar os itens nas bordas */
+}
+
+.topbar .logo img {
+  height: 20px;
+  margin-right: 16px; /* Ajuste de margem */
+  pointer-events: none; /* Impede interação com a logo */
+}
+
+.topbar .nav-buttons {
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.menu-button {
+  display: none; /* Esconde o botão de menu por padrão */
+}
+
+.topbar .nav-buttons .MuiButton-root {
+  margin-left: 16px; /* Espaço entre os botões */
+  padding: 10px; /* Ajusta o padding do botão */
+  min-width: 0; /* Impede o botão de aumentar de tamanho por conta do ícone */
+  border-radius: 50%; /* Torna o botão circular */
+  background-color: transparent; /* Faz o fundo do botão ser transparente */
+}
+
+/* Estilo para os ícones */
+.topbar .nav-buttons .MuiButton-root svg {
+  font-size: 40px; /* Ajuste o tamanho do ícone */
+  color: white; /* Cor dos ícones */
+  transition: color 0.3s ease; /* Adiciona a transição na cor do ícone */
+}
+
+/* Estilo para os ícones no hover (ficando cinza) */
+.topbar .nav-buttons .MuiButton-root:hover svg {
+  color: gray; /* Muda a cor do ícone para cinza no hover */
+}
+
+/* Remover o foco azul dos botões */
+.topbar .nav-buttons .MuiButton-root:focus {
+  background-color: transparent !important; /* Remover o foco azul */
+}
+
+@media (max-width: 768px) {
+  .topbar {
+    height: 60px;
+  }
+
+  .logo img {
+    height: 200px;
+  }
+
+  .nav-buttons {
+    gap: 10px;
+  }
+
+  .nav-buttons button {
+    font-size: 25px; /* Reduz tamanho dos ícones */
+  }
+
+  /* Exibe o botão de menu apenas em telas pequenas */
+  .menu-button {
+    display: block; /* Exibe o botão de menu */
+  }
+
+  /* Esconde os botões de navegação tradicionais para dispositivos móveis */
+  .topbar .nav-buttons .MuiButton-root {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .topbar {
+    height: 50px;
+    padding: 0 10px;
+  }
+
+  .logo img {
+    height: 35px;
+  }
+
+  .nav-buttons button {
+    font-size: 20px;
+  }
+}
+.MuiButton-root:hover svg,
+.MuiButton-root:hover .MuiButton-label {
+  color: gray !important; /* Altera a cor do ícone e do texto para cinza no hover */
+}

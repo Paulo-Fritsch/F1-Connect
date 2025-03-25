@@ -1,0 +1,95 @@
+/* Botões para alternar entre Pilotos e Construtores */
+.toggle-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.toggle-buttons-button {
+  background: #444;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin: 0 5px;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background 0.3s ease;
+}
+
+.toggle-buttons-button:hover {
+  background: #e63946;
+}
+  
+  /* Container da página de vídeos */
+  .videos-container {
+    margin-top: 64px;
+    padding: 24px; /* Espaçamento em volta */
+  }
+  
+  /* Título */
+  .videos-title {
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 30px;
+    color:white;
+  }
+  
+ /* Estilos do card de vídeo */
+.video-card {
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px; /* Bordas arredondadas */
+  display: flex;
+  flex-direction: column;
+  height: 100%; /* Garante que o card tenha altura igual */
+  max-height: 300px; /* Limita a altura do card */
+}
+
+/* Hover no card */
+.video-card:hover {
+  transform: scale(1.05); /* Aumenta o tamanho do card ao passar o mouse */
+}
+
+/* Estilo da imagem do card (thumbnail) */
+.video-card-media {
+  border-radius: 8px;
+  object-fit: cover; /* Garante que a imagem não distorça */
+  height: 200px; /* Definindo a altura fixa da imagem */
+  width: 100%; /* Garantindo que a imagem ocupe toda a largura do card */
+}
+
+/* Conteúdo do card */
+.video-card-content {
+  text-align: center;
+  padding: 16px;
+  flex-grow: 1; /* Faz o conteúdo crescer para preencher o restante do card */
+  overflow: hidden; /* Impede o conteúdo de ultrapassar os limites do card */
+}
+
+/* Título do vídeo */
+.video-card-title {
+  font-weight: 600;
+  font-size: 1.1rem;
+  white-space: nowrap; /* Evita quebra de linha no título */
+  overflow: hidden;
+  text-overflow: ellipsis; /* Adiciona "..." se o texto não couber */
+}
+
+/* Data do vídeo */
+.video-card-date {
+  color: gray;
+  font-size: 0.875rem;
+  white-space: nowrap; /* Evita quebra de linha na data */
+  overflow: hidden;
+  text-overflow: ellipsis; /* Adiciona "..." se o texto não couber */
+}
+
+/* Indicador de carregamento */
+.loading {
+  display: block;
+  margin: 0 auto;
+}
+  

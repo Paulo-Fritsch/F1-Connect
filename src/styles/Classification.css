@@ -1,0 +1,148 @@
+/* Importando a fonte Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* Container principal */
+.classification-container {
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px;
+  background-color: #222;
+  margin-bottom: 30px;
+  padding: 0 10px;
+}
+
+.toggle-buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.toggle-buttons button {
+  background: #444;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin: 0 5px;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background 0.3s ease;
+}
+
+.toggle-buttons button.active {
+  background: #e63946;
+}
+
+/* Caixa principal */
+.classification-box {
+  background-color: #222;
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+}
+
+/* Título */
+.classification-box h2 {
+  color: #ffffff;
+  margin-bottom: 10px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Barra lateral colorida */
+.team-color {
+  width: 5px;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+/* Posição do piloto */
+.position {
+  color: #fff;
+  font-weight: bold;
+  width: 30px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+/* Nome do piloto */
+.driver-name {
+  color: #fff;
+  flex-grow: 1;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.title {
+  color: white;
+}
+
+/* Equipe */
+.team-name {
+  color: #aaa;
+  font-size: 0.9em;
+  margin-left: 10px;
+  flex-grow: 1;
+  text-align: left;
+}
+
+/* Pontuação */
+.points {
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+/* Estilização das linhas */
+.classification-item {
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  padding: 15px;
+  position: relative;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  font-family: 'Montserrat', sans-serif;
+  width: 100%;
+  gap: 10px; 
+  border-bottom: 2px solid #fff; 
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .classification-box {
+    max-width: 90%;
+    padding: 15px;
+  }
+
+  .classification-item {
+    padding: 8px;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .position {
+    width: 20px;
+    margin-right: 5px;
+  }
+
+  .driver-name {
+    font-size: 0.9em;
+  }
+
+  .points {
+    text-align: center;
+    font-size: 0.9em;
+  }
+}

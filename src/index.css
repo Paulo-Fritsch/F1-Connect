@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+:root {
+  font-family: 'Audiowide', system-ui, sans-serif;
+  color: #000000;
+  font-family: 'Audiowide' !important;
+}
+.MuiTypography-root{
+  font-family: 'Audiowide', system-ui, sans-serif;
+  font-family: 'Audiowide' !important;
+}
+body {
+  height: 100%;
+  margin: 0;
+  font-size: 1.5rem;
+  background-color: #222;
+}
+
+
+/* Garantir que o body ocupe a altura total da tela */
+html {
+  height: 100%;
+  margin: 0;
+}
+
+/* Container principal da aplicação */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Garante que o conteúdo ocupe pelo menos a altura da tela */
+}
+
+/* Container de conteúdo */
+.content-container {
+  flex: 1; /* Isso faz com que o conteúdo ocupe o máximo de espaço disponível */
+}
+
+/* Estilo do Footer */
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 14px;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+}
