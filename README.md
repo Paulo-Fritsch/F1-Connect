@@ -19,3 +19,6 @@ Melhorias Futuras:
 - Adicionar mais itens da api
 - Melhorar a usabilidade
 - Trazer noticias de alguma api
+
+
+<footer>Este site não é oficial e não está associado de forma alguma às empresas de Fórmula 1. F1, FÓRMULA UM, FÓRMULA 1, CAMPEONATO MUNDIAL DE FÓRMULA UM DA FIA, GRANDE PRÊMIO e marcas relacionadas são marcas registradas da Formula One Licensing BV.</footer>
