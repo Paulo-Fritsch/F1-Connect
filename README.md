@@ -4,7 +4,6 @@
 ReactJS + VITE <br>
 Material UI (para a interface ficar bem estruturada e responsiva) <br>
 React Router DOM <br>
-Axios (para integrar a API de forma fácil) <br>
 Styled-Components <br>
 Git (para controle de versão e versionamento)<br>
 Vercel (para hospedar de graça)<br>
